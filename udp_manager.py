@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+from . import esto
+=======
 import socket
 import time
 
@@ -25,3 +28,4 @@ class DroneSocket:
 
     def recv(self, buffer):
         return self._udpserver.recvfrom(buffer)
+>>>>>>> 3cd6ccabd6142bb2dbc81d7f3d76021873ad52d7
