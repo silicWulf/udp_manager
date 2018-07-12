@@ -54,4 +54,5 @@ class DroneSocket:
         else:
             if not self.is_hosting:
                 return self._clienttcp.recv(buffer)
-            
+            else:
+                return self._tcpout.recv(buffer)
